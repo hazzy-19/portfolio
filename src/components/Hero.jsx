@@ -36,13 +36,7 @@ export default function Hero() {
       {/* Hero Graphic */}
       <div className="flex-1 flex justify-center items-center relative min-h-[400px]">
         <div className="relative flex justify-center items-center w-[400px] h-[400px]">
-          {/* Pulsing outer rings */}
-          <div className="absolute w-[400px] h-[400px] border-[3px] border-emerald-500/40 rounded-full pulse-animation shadow-[inset_0_0_50px_rgba(16,185,129,0.2)]"></div>
-          <div
-            className="absolute w-[300px] h-[300px] border-2 border-emerald-400/50 rounded-full bg-emerald-50/20"
-            style={{ animation: 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite' }}
-          ></div>
-          
+
           {/* Orbiting Icons Container */}
           <div className="absolute w-[360px] h-[360px] animate-[spin_15s_linear_infinite]">
             <div className="absolute -top-4 left-1/2 -translate-x-1/2 animate-[spin_15s_linear_infinite_reverse] bg-white dark:bg-slate-900 p-2 rounded-full shadow-md dark:shadow-none dark:border dark:border-slate-800 text-sky-500 flex items-center justify-center">
